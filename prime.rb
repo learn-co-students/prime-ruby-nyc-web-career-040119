@@ -12,8 +12,8 @@ def prime?(integer)
   range_number = (1..integer)
   prime_number = []  
     
-  #loop over array then pull out if prime to prime array
-  #if size of prime array == 2, then true
+  #loop over range_number then push to prime_number if prime
+  #if size of prime_number == 2, then true
       
   range_number.each do |check_number|
     if integer % check_number == 0
